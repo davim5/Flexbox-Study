@@ -22,6 +22,7 @@ input, button{
   padding: 0 30px;
 }
 
+/* INÍCIO DO CABECALHO */
 header#main-header{
   height: 46px;
   background-color: #fff;
@@ -97,7 +98,9 @@ header#main-header div.side button{
   border: 0;
   border-radius: 16px;
 }
+/* FIM DO CABECALHO */
 
+/* INÍCIO DO BANNER */
 div.banner{
   height: 380px;
   width: 100%;
@@ -164,10 +167,12 @@ div.bar .content ul li strong{
 div.bar .content ul li.active strong{
   color: #3bb9e3;
 }
+/* FIM DO BANNER */
 
 div .content .actions{
   display: flex;
 }
+
 
 div .content .actions button{
   height: 34px;
