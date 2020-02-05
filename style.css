@@ -1,0 +1,57 @@
+html,
+body,
+#app{
+  height: 100%;
+  margin: 0;
+}
+
+#app{
+  /* Elementos ficam por padrão um ao lado no outro */
+  /* Alinha horizontalmente */
+  display: flex;
+  /* Propriedade que alinha */
+  /* padrão 'row' (mesma linha) */
+  /* row-reverse : começa pela esquerda */
+  /* flex-direction: row; */
+  /* ALIGN-ITENS: Alinha itens no eixo contrário ao flex-direction */
+  /* padrão: alinha conteúdo da div verticalmente */
+  /* center: alinha conteúdo ao centro do espeço */
+  /* end: alinha conteúdo ao fim do espeço */
+  /* align-items: flex-start ; */
+  /* padrão: alinha conteúdo da div horizontalmente */
+  /* center: alinha conteúdo ao centro do espeço */
+  /* end: alinha conteúdo ao fim do espeço */
+  /* SPACE-BETWEEN: coloca espaço igual entre itens da div, exceto começo e fim */
+  /* SPACE-AROUND: coloca espaço igual entre itens da div, incluindo começo e fim */
+  /* justify-content: flex-start; */
+  /* FLEX-WRAP: quebra a linha caso o elemento não caiba na mesma */
+  /* flex-wrap: wrap; */
+  /* align-content: center; */
+}
+
+.box{
+  width: 150px;
+  height: 60px;
+  background-color: red;
+  margin: 5px;
+  /*Flex grow: Elemento aceita ser aumentado pra caber no elemento pai */
+    
+  /* Flex shrink: Diz se elemento tem capacidade de se espremer pra caber no container */
+  /* flex-shrink: 1; */
+  /* Flex: flex-grow + flex-shrink */
+  /* espremer, mas aumentar caso necessário, */
+  /* flex: 1; */
+}
+
+.red{
+  background-color: red;
+  order: 1;
+}
+.green{
+  background-color: green;
+  order:2;
+}
+.blue{
+  background-color: blue;
+  order: 0;
+}
